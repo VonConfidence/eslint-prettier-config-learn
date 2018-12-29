@@ -1,13 +1,12 @@
 {
-  "name": "eslint-prettier-config",
+  "name": "eslint-prettier-editorconfig-learn",
   "version": "1.0.0",
   "description": "eslint prettier editorconfig",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --debug src/",
     "lint:write": "eslint --debug src/ --fix",
-    "prettier": "prettier --write src/**/*.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier": "prettier --write src/**/*.js"
   },
   "husky": {
     "hooks": {
